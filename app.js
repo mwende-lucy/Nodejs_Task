@@ -141,3 +141,4 @@ app.listen(5000, () => {
 app.listen(process.env.PORT || 5000, function () { 
     console.log("SERVER STARTED PORT: 5000"); 
 }); 
+/*var PORT = process.env.PORT || 5000;*/
