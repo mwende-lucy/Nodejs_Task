@@ -133,7 +133,6 @@ app.get('/delete/:studentId',(req, res) => {
         res.redirect('/');
     });
 });
- 
 
 /*//server listening
 app.listen(5000, () => {
