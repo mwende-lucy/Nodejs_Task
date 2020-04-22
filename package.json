@@ -1,13 +1,12 @@
 {
   "name": "apinodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "API Nodejs Task",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  
   "author": "Lucy",
   "license": "ISC",
   "dependencies": {
@@ -15,7 +14,17 @@
     "bootstrap": "^4.4.1",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "funding": "^1.0.9",
+    "jquery": "^3.5.0",
+    "mysql": "^2.18.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/111865/Nodejs_Task.git"
   },
   "engines": {
     "node": "10.x"
