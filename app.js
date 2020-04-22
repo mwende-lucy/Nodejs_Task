@@ -135,10 +135,10 @@ app.get('/delete/:studentId',(req, res) => {
 });
 
 /*//server listening
-app.listen(5000, () => {
-    console.log('Server is running at port 5000');
+app.listen(6000, () => {
+    console.log('Server is running at port 6000');
 });*/
 app.listen(process.env.PORT || 6000, function () { 
-    console.log("SERVER STARTED PORT: 5000"); 
+    console.log("SERVER STARTED PORT: 6000"); 
 }); 
 /*var PORT = process.env.PORT || 6000;*/
